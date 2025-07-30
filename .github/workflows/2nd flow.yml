@@ -1,0 +1,13 @@
+name : seond flow
+on: workflow_dispatch
+jobs: 
+  seond-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: |
+          echo "Hello world hari"
+          echo "Done Bye gocind"  
+       
+    
+
